@@ -1,0 +1,36 @@
+/*
+Theme Name: Ixus child theme
+Theme URI: https://cgi.arcada.fi/~petterto/wordpress/
+description: child theme for ixu consulting.
+Author: Petterto
+Author URI: https://cgi.arcada.fi/~petterto/wordpress/
+Template: twentytwentyone
+Version: 2021.5.21
+Text Domain: arcada-child-theme
+*/
+#page,body{
+	background-color:#55ACF9 !important; 
+	
+}
+.entry-content{
+	background-color:#8CC0ED;
+}
+.powered-by{
+	opacity: 0;
+}
+.drop-down{
+	color: White;
+}
+.page-site{
+	background-color:#55ACF9;
+}
+.body {
+	font-size: var(--global--font-size-base);
+	font-weight: normal;
+	color: var(--global--color-primary);
+	text-align: left;
+	background-color: #55ACF9;
+}
+.wdi_feed_thumnail_1, .wdi_feed_container {
+	width: 350px !important;
+}
